@@ -1,5 +1,7 @@
 # APT28-Blue-delta-emulation
-
+This repository documents the emulation of APT28 (Blue Delta) TTPs and the resulting incident investigation. A malicious tool, NulltacKatz.py, was delivered via a phishing email. Once executed, it triggered a sequence of activities, including system discovery, privilege escalation, credential dumping, and data exfiltration.
+The investigation focused on detecting, analyzing, and reconstructing the attacker's activities. 
+Sysmon logs, network traffic, and memory captures were analyzed as part of this process.
 # APT28 overview 
 
 ## 1. Group Identity & Attribution
